@@ -1,0 +1,89 @@
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	Arrays_case1	What is the index of the first element in a Python list?	1	-1	0	2	Depends on compiler	c
+easy	Arrays_case2	An array is defined as a collection of items stored at:	Random memory locations	Non-contiguous memory locations	Contiguous memory locations	External storage only	Virtual memory addresses only	c
+medium	Arrays_case3	If a 2D array has 5 rows and 3 columns, how many elements does it contain?	8	15	10	20	12	b
+medium	Arrays_case4	How is a two-dimensional array stored in memory?	As a hierarchical tree	As contiguous storage locations where rows are stored one after another	Scattered across different sectors of the hard drive	As a non-linear linked list	Only in CPU registers	b
+hard	Arrays_case5	In a 2D array, if you need to access diagonal elements specifically, which condition on row index (i) and column index (j) is used?	i < j	i > j	i = j	(i + j) > n	(i + j) < n	c
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	QueueConcepts_case1	A Queue is a linear data structure that follows the principle of:	Last-In-First-Out	First-In-First-Out	Priority-Based-Access	Last-In-Last-Out	Middle-In-First-Out	b
+easy	QueueConcepts_case2	Which operation removes and returns the front element of a queue?	enqueue()	push()	dequeue()	insert()	delete()	c
+medium	QueueConcepts_case3	Which two pointers are used to perform operations in an array-based queue?	Top and Bottom	Start and End	Head and Tail (Front and Rear)	Left and Right	Root and Leaf	c
+medium	QueueConcepts_case4	What does "Capacity" refer to in the context of a queue?	Current number of elements	The size of each data element	The maximum number of elements it can hold	The speed of the dequeue operation	The memory address of the first node	c
+hard	QueueConcepts_case5	Which condition usually shows that a circular queue is full?	front == -1	rear == -1	(rear + 1) % capacity == front	front == rear in every case	rear == capacity - 1	c
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	BSTImpl_case1	In a BST, where is a value smaller than the current node placed?	In the right subtree	In the left subtree	At the root only	In any empty position	Randomly anywhere	b
+medium	BSTImpl_case2	In the linked node representation of a binary tree, each node typically contains:	A pointer to the next node in a linear chain	Data and an index number	Data and one pointer to the parent	Data and pointers to its left and right children	Only data	d
+
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	BinaryTree_case1	In a binary tree, each node can have at most:	1 child	2 children	3 children	4 children	Unlimited children	b
+easy	BinaryTree_case2	What is the topmost node in a tree called?	Leaf	Root	Child	Edge	Parent	b
+medium	BinaryTree_case3	What is a "leaf node" in a binary tree?	A node with at least one child	A node at level 0	A node with exactly two children	A node storing pointers to the root	A node with no children	e
+medium	BinaryTree_case4	Which traversal of a BST produces sorted output?	Pre-order	Post-order	In-order	Level-order	Random-order	c
+hard	BinaryTree_case5	In a perfect binary tree, if the internal nodes each have two children and all leaves are at the same level, the number of leaf nodes is:  Half the internal nodes Double the internal nodes   Equal to the number of internal nodes	Internal nodes + 1	Internal nodes – 1	c
+
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	BubbleSort_case1	What is the basic principle of Bubble Sort?	Divide and conquer	Swap adjacent elements if they are in the wrong order	Insert elements into a sorted sublist	Select the smallest element each time	Use recursion to split arrays	b
+medium	BubbleSort_case2	After one pass of Bubble Sort on the list [5, 3, 8, 4], what is the resulting list?	a: [3, 5, 8, 4]	b: [3, 5, 4, 8]	c: [5, 3, 4, 8]	d: [3, 4, 5, 8]	e: [5, 8, 3, 4]	a
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	GraphRep_case1	A graph consists of which two fundamental components?	Nodes and arrays	Vertices and edges	Trees and heaps	Levels and leaves	Pointers and references	b
+medium	GraphRep_case2	What is an adjacency matrix in graph representation?	A list of all vertices in a graph	A 2D matrix where cell (i,j) stores information about the edge from vertex i to vertex j	A linear array used to store node values	A collection of leaf nodes without edges	A tree structure that represents many-to-many relationships	d
+
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	Intro_DSA_case1	Which of the following is a linear data structure?	Tree	Graph	Queue	Hash Table	None of the above	c
+medium	Intro_DSA_case1	What is the main advantage of Abstract Data Types (ADT)?	They reduce memory usage	They hide implementation details	They improve hardware speed	They eliminate recursion	They guarantee O(1) operations	b
+hard	Intro_DSA_case3	Which statement correctly differentiates linear and non-linear data structures?	 Linear → Queue, Non-linear → Tree	Linear → Graph, Non-linear → Array	Linear → Hash Table, Non-linear → Stack	Linear → Tree, Non-linear → Queue	None of the above	a
+
+
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	LinkedListImpl_case1	Deleting a node from the beginning of a linked list involves pointing the head to:	NULL	The last node	The second node (head.next)	The current node itself	A new temporary node	c
+medium	LinkedListImpl_case2	What is the purpose of the Traversal operation in a linked list?	To delete the entire list	To access each element of the linked list sequentially	To find the last node and delete it	To sort the list in descending order	To reverse the pointers of all nodes	b
+hard	LinkedListImpl_case3	When inserting a node at the beginning of a linked list, what is the first step regarding pointers?	Set head to point to NULL	Set the new node’s next to the current head	Set the last node’s next to the new node	Set head to the new node immediately	Traverse to the end of the list	b
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	MergeSort_case1	What is the first step in the Merge Sort algorithm?	Swap	Compare	Merge	Divide	Compare	d
+medium	MergeSort_case2	Which algorithm is classically O(n log n) in the worst case?	Bubble Sort	Merge Sort	Linear Search	Accessing the top of a stack	Insertion Sort	b
+
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	QueueConcepts_case1	A Queue is a linear data structure that follows the principle of:	Last-In-First-Out	First-In-First-Out	Priority-Based-Access	Last-In-Last-Out	Middle-In-First-Out	b
+easy	QueueConcepts_case2	Which operation removes and returns the front element of a queue?	enqueue()	push()	dequeue()	insert()	delete()	c
+medium	QueueConcepts_case3	Which two pointers are used to perform operations in an array-based queue?	Top and Bottom	Start and End	Head and Tail (Front and Rear)	Left and Right	Root and Leaf	c
+medium	QueueConcepts_case4	What does "Capacity" refer to in the context of a queue?	Current number of elements	The size of each data element	The maximum number of elements it can hold	The speed of the dequeue operation	The memory address of the first node	c
+hard	QueueConcepts_case5	Which condition usually shows that a circular queue is full?	front == -1	rear == -1	(rear + 1) % capacity == front	front == rear in every case	rear == capacity - 1	c
+
+
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	LinkedList_case1	Each element in a Linked List is a separate object called a:	Block	Index	Node	Sector	Link	c
+easy	LinkedList_case2	What does the next pointer of the last node in a singly linked list point to?	The head	The first node	NULL	Itself	The previous node	c
+medium	LinkedList_case3	How is memory allocated for a Linked List compared to an Array?	Arrays are allocated one by one; Linked Lists are allocated as a whole	Both are allocated to the whole structure at once	Arrays are contiguous; Linked Lists are non-contiguous and allocated node by node	Linked lists use no memory for pointers	Arrays are more efficient for insertions and deletions	c
+medium	LinkedList_case4	Which pointer identifies the very first node of the Linked List?	Tail	End	Root	Head	Start	d
+hard	LinkedList_case5	In which type of linked list does the last node point back to the first node?	Doubly Linked-List	Linear Linked-List	Pathological Linked-List	rear = max_array_size	Static Linked-List	e
+								
+								
+								difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	StackImpl_case1	In a stack implementation, which operation adds an element to the top?	Pop	Push	IsEmpty	Delete	Reset	c
+medium	StackImpl_case2	When implementing a pop function in a stack, what must happen to the top pointer after retrieving the value?	stack.top = stack.top + 1	stack.top = stack.top - 1	stack.top = 0	stack.top = size	The pointer remains the same	b
+hard	StackImpl_case3	In a stack implementation, if stack.top ≥ stack.size - 1, what error message should be printed?	"memory full"	"stack underflow"	"stack overflow"	"array error"	"index out of bounds"	c
+
+
+
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	StackOps_case1	Which function is used to check if a stack contains no elements?	IsFull	Peek	IsEmpty	Pop	Reset	c
+easy	StackOps_case2	Which operation removes the top element from a stack?	Push	Pop	Peek	Insert	Delete	b
+medium	StackOps_case3	Which operation returns the top data value without removing it from the stack?	Push	Pop	IsEmpty	Peek	Size	d
+medium	StackOps_case4	In stack, the IsFull operation returns true when the top pointer is equal to:	0	-1	capacity - 1	capacity + 1	size / 2	c
+hard	StackOps_case5	In stack, for the Push operation, what is the step immediately following the "Check if full" stage (assuming it’s not full)?	Add data to the current top	Decrement the top pointer	Exit the program	Increment top to point to the next empty space	Return an overflow error	d
+
+difficulty	case_scenario	lead_in	a	b	c	d	e	answer
+easy	Stack_case1	The Stack data structure operates on which principle?	First-In-First-Out (FIFO)	Last-In-First-Out (LIFO)	Highest-Priority-First (HPF)	Random-In-Random-Out (RIRO)	Bottom-In-Top-Out (BITO)	b
+medium	Stack_case1	Which of the following is a real-world application of a stack?	People waiting in a ticket line	A deck of cards or a pile of plates	A social network friend suggestion	GPS navigation routes	Printer job management	b
+hard	Stack_case1	Which computer process relies on a stack to manage function calls and return addresses?	Memory paging	Function recursion	File system indexing	Hash table lookup	Priority scheduling	e

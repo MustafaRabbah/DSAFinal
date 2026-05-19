@@ -1,0 +1,1163 @@
+{
+  "title": "DSA Final Exam MCQs",
+  "title_ar": "أسئلة اختيار من متعدد — هياكل البيانات",
+  "updated": "2026-05-19",
+  "count": 45,
+  "topics": [
+    "Arrays (1D & 2D)",
+    "Binary Search Tree",
+    "Binary Trees",
+    "Bubble Sort",
+    "Graph Representation",
+    "Intro to DSA",
+    "Linked List Implementation",
+    "Linked Lists",
+    "Merge Sort",
+    "Queue Concepts",
+    "Stack",
+    "Stack Implementation",
+    "Stack Operations"
+  ],
+  "topics_ar": {
+    "Arrays (1D & 2D)": "المصفوفات (أحادية وثنائية الأبعاد)",
+    "Binary Search Tree": "شجرة البحث الثنائية",
+    "Binary Trees": "الأشجار الثنائية",
+    "Bubble Sort": "فرز الفقاعات",
+    "Graph Representation": "تمثيل الرسم البياني",
+    "Intro to DSA": "مقدمة في هياكل البيانات والخوارزميات",
+    "Linked List Implementation": "تنفيذ القائمة المترابطة",
+    "Linked Lists": "القوائم المترابطة",
+    "Merge Sort": "فرز الدمج",
+    "Queue Concepts": "مفاهيم الطابور",
+    "Stack": "المكدس",
+    "Stack Implementation": "تنفيذ المكدس",
+    "Stack Operations": "عمليات المكدس"
+  },
+  "questions": [
+    {
+      "difficulty": "easy",
+      "case": "Arrays_case1",
+      "topic": "Arrays (1D & 2D)",
+      "question": "What is the index of the first element in a Python list?",
+      "options": {
+        "a": "1",
+        "b": "-1",
+        "c": "0",
+        "d": "2",
+        "e": "Depends on compiler"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 1,
+      "question_ar": "ما هو فهرس العنصر الأول في قائمة بايثون؟",
+      "options_ar": {
+        "a": "1",
+        "b": "-1",
+        "c": "0",
+        "d": "2",
+        "e": "يعتمد على المترجم"
+      },
+      "topic_ar": "المصفوفات (أحادية وثنائية الأبعاد)"
+    },
+    {
+      "difficulty": "easy",
+      "case": "Arrays_case2",
+      "topic": "Arrays (1D & 2D)",
+      "question": "An array is defined as a collection of items stored at:",
+      "options": {
+        "a": "Random memory locations",
+        "b": "Non-contiguous memory locations",
+        "c": "Contiguous memory locations",
+        "d": "External storage only",
+        "e": "Virtual memory addresses only"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 2,
+      "question_ar": "تُعرَّف المصفوفة بأنها مجموعة عناصر مخزَّنة في:",
+      "options_ar": {
+        "a": "مواقع ذاكرة عشوائية",
+        "b": "مواقع ذاكرة غير متجاورة",
+        "c": "مواقع ذاكرة متجاورة",
+        "d": "تخزين خارجي فقط",
+        "e": "عناوين ذاكرة افتراضية فقط"
+      },
+      "topic_ar": "المصفوفات (أحادية وثنائية الأبعاد)"
+    },
+    {
+      "difficulty": "medium",
+      "case": "Arrays_case3",
+      "topic": "Arrays (1D & 2D)",
+      "question": "If a 2D array has 5 rows and 3 columns, how many elements does it contain?",
+      "options": {
+        "a": "8",
+        "b": "15",
+        "c": "10",
+        "d": "20",
+        "e": "12"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 3,
+      "question_ar": "إذا كانت مصفوفة ثنائية الأبعاد تحتوي على 5 صفوف و3 أعمدة، فكم عنصرًا فيها؟",
+      "options_ar": {
+        "a": "8",
+        "b": "15",
+        "c": "10",
+        "d": "20",
+        "e": "12"
+      },
+      "topic_ar": "المصفوفات (أحادية وثنائية الأبعاد)"
+    },
+    {
+      "difficulty": "medium",
+      "case": "Arrays_case4",
+      "topic": "Arrays (1D & 2D)",
+      "question": "How is a two-dimensional array stored in memory?",
+      "options": {
+        "a": "As a hierarchical tree",
+        "b": "As contiguous storage locations where rows are stored one after another",
+        "c": "Scattered across different sectors of the hard drive",
+        "d": "As a non-linear linked list",
+        "e": "Only in CPU registers"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 4,
+      "question_ar": "كيف تُخزَّن مصفوفة ثنائية الأبعاد في الذاكرة؟",
+      "options_ar": {
+        "a": "كتسلسل هرمي شجري",
+        "b": "كمواقع تخزين متجاورة حيث تُخزَّن الصفوف واحدًا تلو الآخر",
+        "c": "مبعثرة في قطاعات مختلفة من القرص",
+        "d": "كقائمة مترابطة غير خطية",
+        "e": "في سجلات المعالج فقط"
+      },
+      "topic_ar": "المصفوفات (أحادية وثنائية الأبعاد)"
+    },
+    {
+      "difficulty": "hard",
+      "case": "Arrays_case5",
+      "topic": "Arrays (1D & 2D)",
+      "question": "In a 2D array, if you need to access diagonal elements specifically, which condition on row index (i) and column index (j) is used?",
+      "options": {
+        "a": "i < j",
+        "b": "i > j",
+        "c": "i = j",
+        "d": "(i + j) > n",
+        "e": "(i + j) < n"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 5,
+      "question_ar": "في مصفوفة ثنائية الأبعاد، للوصول إلى العناصر القطرية، أي شرط على فهرس الصف (i) والعمود (j) يُستخدم؟",
+      "options_ar": {
+        "a": "i < j",
+        "b": "i > j",
+        "c": "i = j",
+        "d": "(i + j) > n",
+        "e": "(i + j) < n"
+      },
+      "topic_ar": "المصفوفات (أحادية وثنائية الأبعاد)"
+    },
+    {
+      "difficulty": "easy",
+      "case": "BSTImpl_case1",
+      "topic": "Binary Search Tree",
+      "question": "In a BST, where is a value smaller than the current node placed?",
+      "options": {
+        "a": "In the right subtree",
+        "b": "In the left subtree",
+        "c": "At the root only",
+        "d": "In any empty position",
+        "e": "Randomly anywhere"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 6,
+      "question_ar": "في شجرة البحث الثنائية، أين يُوضَع قيمة أصغر من العقدة الحالية؟",
+      "options_ar": {
+        "a": "في الشجرة الفرعية اليمنى",
+        "b": "في الشجرة الفرعية اليسرى",
+        "c": "في الجذر فقط",
+        "d": "في أي موضع فارغ",
+        "e": "عشوائيًا في أي مكان"
+      },
+      "topic_ar": "شجرة البحث الثنائية"
+    },
+    {
+      "difficulty": "medium",
+      "case": "BSTImpl_case2",
+      "topic": "Binary Search Tree",
+      "question": "In the linked node representation of a binary tree, each node typically contains:",
+      "options": {
+        "a": "A pointer to the next node in a linear chain",
+        "b": "Data and an index number",
+        "c": "Data and one pointer to the parent",
+        "d": "Data and pointers to its left and right children",
+        "e": "Only data"
+      },
+      "answer": "d",
+      "source": "1",
+      "id": 7,
+      "question_ar": "في تمثيل العقد المترابطة للشجرة الثنائية، كل عقدة تحتوي عادةً على:",
+      "options_ar": {
+        "a": "مؤشر إلى العقدة التالية في سلسلة خطية",
+        "b": "البيانات ورقم فهرس",
+        "c": "البيانات ومؤشر واحد إلى الأب",
+        "d": "البيانات ومؤشرات إلى الابن الأيسر والأيمن",
+        "e": "البيانات فقط"
+      },
+      "topic_ar": "شجرة البحث الثنائية"
+    },
+    {
+      "difficulty": "easy",
+      "case": "BinaryTree_case1",
+      "topic": "Binary Trees",
+      "question": "In a binary tree, each node can have at most:",
+      "options": {
+        "a": "1 child",
+        "b": "2 children",
+        "c": "3 children",
+        "d": "4 children",
+        "e": "Unlimited children"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 8,
+      "question_ar": "في الشجرة الثنائية، كل عقدة يمكن أن يكون لها على الأكثر:",
+      "options_ar": {
+        "a": "ابن واحد",
+        "b": "ابنان",
+        "c": "3 أبناء",
+        "d": "4 أبناء",
+        "e": "عدد غير محدود من الأبناء"
+      },
+      "topic_ar": "الأشجار الثنائية"
+    },
+    {
+      "difficulty": "easy",
+      "case": "BinaryTree_case2",
+      "topic": "Binary Trees",
+      "question": "What is the topmost node in a tree called?",
+      "options": {
+        "a": "Leaf",
+        "b": "Root",
+        "c": "Child",
+        "d": "Edge",
+        "e": "Parent"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 9,
+      "question_ar": "ما اسم العقدة الأعلى في الشجرة؟",
+      "options_ar": {
+        "a": "ورقة",
+        "b": "جذر",
+        "c": "ابن",
+        "d": "حافة",
+        "e": "أب"
+      },
+      "topic_ar": "الأشجار الثنائية"
+    },
+    {
+      "difficulty": "medium",
+      "case": "BinaryTree_case3",
+      "topic": "Binary Trees",
+      "question": "What is a \"leaf node\" in a binary tree?",
+      "options": {
+        "a": "A node with at least one child",
+        "b": "A node at level 0",
+        "c": "A node with exactly two children",
+        "d": "A node storing pointers to the root",
+        "e": "A node with no children"
+      },
+      "answer": "e",
+      "source": "1",
+      "id": 10,
+      "question_ar": "ما هي «العقدة الورقية» في الشجرة الثنائية؟",
+      "options_ar": {
+        "a": "عقدة لها ابن واحد على الأقل",
+        "b": "عقدة عند المستوى 0",
+        "c": "عقدة لها ابنان بالضبط",
+        "d": "عقدة تخزن مؤشرات إلى الجذر",
+        "e": "عقدة بلا أبناء"
+      },
+      "topic_ar": "الأشجار الثنائية"
+    },
+    {
+      "difficulty": "medium",
+      "case": "BinaryTree_case4",
+      "topic": "Binary Trees",
+      "question": "Which traversal of a BST produces sorted output?",
+      "options": {
+        "a": "Pre-order",
+        "b": "Post-order",
+        "c": "In-order",
+        "d": "Level-order",
+        "e": "Random-order"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 11,
+      "question_ar": "أي اجتياز لشجرة BST يُنتج مخرجات مرتبة؟",
+      "options_ar": {
+        "a": "Preorder",
+        "b": "Postorder",
+        "c": "In-order",
+        "d": "Level-order",
+        "e": "عشوائي"
+      },
+      "topic_ar": "الأشجار الثنائية"
+    },
+    {
+      "difficulty": "hard",
+      "case": "BinaryTree_case5",
+      "topic": "Binary Trees",
+      "question": "In a perfect binary tree, if the internal nodes each have two children and all leaves are at the same level, the number of leaf nodes is:",
+      "options": {
+        "a": "Half the internal nodes",
+        "b": "Double the internal nodes",
+        "c": "Equal to the number of internal nodes",
+        "d": "Internal nodes + 1",
+        "e": "Internal nodes – 1"
+      },
+      "answer": "c",
+      "source": "Binary Tree Representation.xlsx",
+      "id": 12,
+      "question_ar": "في شجرة ثنائية كاملة، إذا كان لكل عقدة داخلية ابنان وجميع الأوراق على نفس المستوى، عدد الأوراق يساوي:",
+      "options_ar": {
+        "a": "نصف العقد الداخلية",
+        "b": "ضعف العقد الداخلية",
+        "c": "عدد العقد الداخلية",
+        "d": "العقد الداخلية + 1",
+        "e": "العقد الداخلية − 1"
+      },
+      "topic_ar": "الأشجار الثنائية"
+    },
+    {
+      "difficulty": "easy",
+      "case": "BubbleSort_case1",
+      "topic": "Bubble Sort",
+      "question": "What is the basic principle of Bubble Sort?",
+      "options": {
+        "a": "Divide and conquer",
+        "b": "Swap adjacent elements if they are in the wrong order",
+        "c": "Insert elements into a sorted sublist",
+        "d": "Select the smallest element each time",
+        "e": "Use recursion to split arrays"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 13,
+      "question_ar": "ما المبدأ الأساسي لفرز الفقاعات؟",
+      "options_ar": {
+        "a": "فرق تسد",
+        "b": "مبادلة العناصر المتجاورة إذا كان ترتيبهما خاطئًا",
+        "c": "إدراج العناصر في قائمة فرعية مرتبة",
+        "d": "اختيار أصغر عنصر في كل مرة",
+        "e": "استخدام العودية لتقسيم المصفوفات"
+      },
+      "topic_ar": "فرز الفقاعات"
+    },
+    {
+      "difficulty": "medium",
+      "case": "BubbleSort_case2",
+      "topic": "Bubble Sort",
+      "question": "After one pass of Bubble Sort on the list [5, 3, 8, 4], what is the resulting list?",
+      "options": {
+        "a": "a: [3, 5, 8, 4]",
+        "b": "b: [3, 5, 4, 8]",
+        "c": "c: [5, 3, 4, 8]",
+        "d": "d: [3, 4, 5, 8]",
+        "e": "e: [5, 8, 3, 4]"
+      },
+      "answer": "a",
+      "source": "1",
+      "id": 14,
+      "question_ar": "بعد مرور واحد لفرز الفقاعات على القائمة [5, 3, 8, 4]، ما القائمة الناتجة؟",
+      "options_ar": {
+        "a": "a: [3, 5, 8, 4]",
+        "b": "b: [3, 5, 4, 8]",
+        "c": "c: [5, 3, 4, 8]",
+        "d": "d: [3, 4, 5, 8]",
+        "e": "e: [5, 8, 3, 4]"
+      },
+      "topic_ar": "فرز الفقاعات"
+    },
+    {
+      "difficulty": "easy",
+      "case": "GraphRep_case1",
+      "topic": "Graph Representation",
+      "question": "A graph consists of which two fundamental components?",
+      "options": {
+        "a": "Nodes and arrays",
+        "b": "Vertices and edges",
+        "c": "Trees and heaps",
+        "d": "Levels and leaves",
+        "e": "Pointers and references"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 15,
+      "question_ar": "يتكوَّن الرسم البياني من أي مكوّنين أساسيين؟",
+      "options_ar": {
+        "a": "عُقد ومصفوفات",
+        "b": "رؤوس وحواف",
+        "c": "أشجار وكومات",
+        "d": "مستويات وأوراق",
+        "e": "مؤشرات ومراجع"
+      },
+      "topic_ar": "تمثيل الرسم البياني"
+    },
+    {
+      "difficulty": "medium",
+      "case": "GraphRep_case2",
+      "topic": "Graph Representation",
+      "question": "What is an adjacency matrix in graph representation?",
+      "options": {
+        "a": "A list of all vertices in a graph",
+        "b": "A 2D matrix where cell (i,j) stores information about the edge from vertex i to vertex j",
+        "c": "A linear array used to store node values",
+        "d": "A collection of leaf nodes without edges",
+        "e": "A tree structure that represents many-to-many relationships"
+      },
+      "answer": "d",
+      "source": "1",
+      "id": 16,
+      "question_ar": "ما هي مصفوفة التجاور في تمثيل الرسم البياني؟",
+      "options_ar": {
+        "a": "قائمة بجميع رؤوس الرسم",
+        "b": "مصفوفة ثنائية حيث الخلية (i,j) تخزن معلومات الحافة من الرأس i إلى j",
+        "c": "مصفوفة خطية لقيم العُقد",
+        "d": "مجموعة أوراق بلا حواف",
+        "e": "بنية شجرية تمثل علاقات many-to-many"
+      },
+      "topic_ar": "تمثيل الرسم البياني"
+    },
+    {
+      "difficulty": "easy",
+      "case": "Intro_DSA_case1",
+      "topic": "Intro to DSA",
+      "question": "Which of the following is a linear data structure?",
+      "options": {
+        "a": "Tree",
+        "b": "Graph",
+        "c": "Queue",
+        "d": "Hash Table",
+        "e": "None of the above"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 17,
+      "question_ar": "أيٌّ مما يلي يُعدُّ هيكل بيانات خطيًا؟",
+      "options_ar": {
+        "a": "شجرة",
+        "b": "رسم بياني",
+        "c": "طابور",
+        "d": "جدول تجزئة",
+        "e": "لا شيء مما سبق"
+      },
+      "topic_ar": "مقدمة في هياكل البيانات والخوارزميات"
+    },
+    {
+      "difficulty": "medium",
+      "case": "Intro_DSA_case1",
+      "topic": "Intro to DSA",
+      "question": "What is the main advantage of Abstract Data Types (ADT)?",
+      "options": {
+        "a": "They reduce memory usage",
+        "b": "They hide implementation details",
+        "c": "They improve hardware speed",
+        "d": "They eliminate recursion",
+        "e": "They guarantee O(1) operations"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 18,
+      "question_ar": "ما الميزة الرئيسية لأنواع البيانات المجردة (ADT)؟",
+      "options_ar": {
+        "a": "تقليل استخدام الذاكرة",
+        "b": "إخفاء تفاصيل التنفيذ",
+        "c": "تحسين سرعة العتاد",
+        "d": "إلغاء العودية",
+        "e": "ضمان عمليات O(1)"
+      },
+      "topic_ar": "مقدمة في هياكل البيانات والخوارزميات"
+    },
+    {
+      "difficulty": "hard",
+      "case": "Intro_DSA_case3",
+      "topic": "Intro to DSA",
+      "question": "Which statement correctly differentiates linear and non-linear data structures?",
+      "options": {
+        "a": "Linear → Queue, Non-linear → Tree",
+        "b": "Linear → Graph, Non-linear → Array",
+        "c": "Linear → Hash Table, Non-linear → Stack",
+        "d": "Linear → Tree, Non-linear → Queue",
+        "e": "None of the above"
+      },
+      "answer": "a",
+      "source": "1",
+      "id": 19,
+      "question_ar": "أي عبارة تميّز بشكل صحيح بين الهياكل الخطية وغير الخطية؟",
+      "options_ar": {
+        "a": "خطي → طابور، غير خطي → شجرة",
+        "b": "خطي → رسم، غير خطي → مصفوفة",
+        "c": "خطي → جدول تجزئة، غير خطي → مكدس",
+        "d": "خطي → شجرة، غير خطي → طابور",
+        "e": "لا شيء مما سبق"
+      },
+      "topic_ar": "مقدمة في هياكل البيانات والخوارزميات"
+    },
+    {
+      "difficulty": "easy",
+      "case": "LinkedListImpl_case1",
+      "topic": "Linked List Implementation",
+      "question": "Deleting a node from the beginning of a linked list involves pointing the head to:",
+      "options": {
+        "a": "NULL",
+        "b": "The last node",
+        "c": "The second node (head.next)",
+        "d": "The current node itself",
+        "e": "A new temporary node"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 20,
+      "question_ar": "حذف عقدة من بداية القائمة المترابطة يتضمن توجيه الرأس إلى:",
+      "options_ar": {
+        "a": "NULL",
+        "b": "العقدة الأخيرة",
+        "c": "العقدة الثانية (head.next)",
+        "d": "العقدة الحالية نفسها",
+        "e": "عقدة مؤقتة جديدة"
+      },
+      "topic_ar": "تنفيذ القائمة المترابطة"
+    },
+    {
+      "difficulty": "medium",
+      "case": "LinkedListImpl_case2",
+      "topic": "Linked List Implementation",
+      "question": "What is the purpose of the Traversal operation in a linked list?",
+      "options": {
+        "a": "To delete the entire list",
+        "b": "To access each element of the linked list sequentially",
+        "c": "To find the last node and delete it",
+        "d": "To sort the list in descending order",
+        "e": "To reverse the pointers of all nodes"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 21,
+      "question_ar": "ما غرض عملية الاجتياز (Traversal) في القائمة المترابطة؟",
+      "options_ar": {
+        "a": "حذف القائمة بالكامل",
+        "b": "الوصول إلى كل عنصر في القائمة بالتسلسل",
+        "c": "إيجاد العقدة الأخيرة وحذفها",
+        "d": "ترتيب القائمة تنازليًا",
+        "e": "عكس مؤشرات جميع العُقد"
+      },
+      "topic_ar": "تنفيذ القائمة المترابطة"
+    },
+    {
+      "difficulty": "hard",
+      "case": "LinkedListImpl_case3",
+      "topic": "Linked List Implementation",
+      "question": "When inserting a node at the beginning of a linked list, what is the first step regarding pointers?",
+      "options": {
+        "a": "Set head to point to NULL",
+        "b": "Set the new node’s next to the current head",
+        "c": "Set the last node’s next to the new node",
+        "d": "Set head to the new node immediately",
+        "e": "Traverse to the end of the list"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 22,
+      "question_ar": "عند إدراج عقدة في بداية القائمة المترابطة، ما أول خطوة بخصوص المؤشرات؟",
+      "options_ar": {
+        "a": "جعل الرأس يشير إلى NULL",
+        "b": "جعل next للعقدة الجديدة يشير إلى الرأس الحالي",
+        "c": "جعل next للعقدة الأخيرة يشير إلى العقدة الجديدة",
+        "d": "جعل الرأس يشير إلى العقدة الجديدة فورًا",
+        "e": "الاجتياز حتى نهاية القائمة"
+      },
+      "topic_ar": "تنفيذ القائمة المترابطة"
+    },
+    {
+      "difficulty": "easy",
+      "case": "LinkedList_case1",
+      "topic": "Linked Lists",
+      "question": "Each element in a Linked List is a separate object called a:",
+      "options": {
+        "a": "Block",
+        "b": "Index",
+        "c": "Node",
+        "d": "Sector",
+        "e": "Link"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 23,
+      "question_ar": "كل عنصر في القائمة المترابطة هو كائن منفصل يُسمى:",
+      "options_ar": {
+        "a": "كتلة",
+        "b": "فهرس",
+        "c": "عقدة",
+        "d": "قطاع",
+        "e": "رابط"
+      },
+      "topic_ar": "القوائم المترابطة"
+    },
+    {
+      "difficulty": "easy",
+      "case": "LinkedList_case2",
+      "topic": "Linked Lists",
+      "question": "What does the next pointer of the last node in a singly linked list point to?",
+      "options": {
+        "a": "The head",
+        "b": "The first node",
+        "c": "NULL",
+        "d": "Itself",
+        "e": "The previous node"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 24,
+      "question_ar": "إلى ماذا يشير مؤشر next للعقدة الأخيرة في قائمة مفردة الاتجاه؟",
+      "options_ar": {
+        "a": "الرأس",
+        "b": "العقدة الأولى",
+        "c": "NULL",
+        "d": "نفسها",
+        "e": "العقدة السابقة"
+      },
+      "topic_ar": "القوائم المترابطة"
+    },
+    {
+      "difficulty": "medium",
+      "case": "LinkedList_case3",
+      "topic": "Linked Lists",
+      "question": "How is memory allocated for a Linked List compared to an Array?",
+      "options": {
+        "a": "Arrays are allocated one by one; Linked Lists are allocated as a whole",
+        "b": "Both are allocated to the whole structure at once",
+        "c": "Arrays are contiguous; Linked Lists are non-contiguous and allocated node by node",
+        "d": "Linked lists use no memory for pointers",
+        "e": "Arrays are more efficient for insertions and deletions"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 25,
+      "question_ar": "كيف تُخصَّص الذاكرة للقائمة المترابطة مقارنة بالمصفوفة؟",
+      "options_ar": {
+        "a": "المصفوفات عنصرًا بعنصر؛ القوائم ككل مرة واحدة",
+        "b": "كلاهما يُخصَّص للبنية كاملة دفعة واحدة",
+        "c": "المصفوفات متجاورة؛ القوائم غير متجاورة وتُخصَّص عقدة بعقدة",
+        "d": "القوائم لا تستخدم ذاكرة للمؤشرات",
+        "e": "المصفوفات أفضل للإدراج والحذف"
+      },
+      "topic_ar": "القوائم المترابطة"
+    },
+    {
+      "difficulty": "medium",
+      "case": "LinkedList_case4",
+      "topic": "Linked Lists",
+      "question": "Which pointer identifies the very first node of the Linked List?",
+      "options": {
+        "a": "Tail",
+        "b": "End",
+        "c": "Root",
+        "d": "Head",
+        "e": "Start"
+      },
+      "answer": "d",
+      "source": "1",
+      "id": 26,
+      "question_ar": "أي مؤشر يحدّد العقدة الأولى في القائمة المترابطة؟",
+      "options_ar": {
+        "a": "Tail",
+        "b": "End",
+        "c": "Root",
+        "d": "Head",
+        "e": "Start"
+      },
+      "topic_ar": "القوائم المترابطة"
+    },
+    {
+      "difficulty": "hard",
+      "case": "LinkedList_case5",
+      "topic": "Linked Lists",
+      "question": "In which type of linked list does the last node point back to the first node?",
+      "options": {
+        "a": "Doubly Linked-List",
+        "b": "Linear Linked-List",
+        "c": "Pathological Linked-List",
+        "d": "rear = max_array_size",
+        "e": "Static Linked-List"
+      },
+      "answer": "e",
+      "source": "1",
+      "id": 27,
+      "question_ar": "في أي نوع من القوائم المترابطة تشير العقدة الأخيرة إلى الأولى؟",
+      "options_ar": {
+        "a": "قائمة مزدوجة الاتجاه",
+        "b": "قائمة خطية",
+        "c": "قائمة مرضية",
+        "d": "rear = max_array_size",
+        "e": "قائمة ثابتة"
+      },
+      "topic_ar": "القوائم المترابطة"
+    },
+    {
+      "difficulty": "easy",
+      "case": "MergeSort_case1",
+      "topic": "Merge Sort",
+      "question": "What is the first step in the Merge Sort algorithm?",
+      "options": {
+        "a": "Swap",
+        "b": "Compare",
+        "c": "Merge",
+        "d": "Divide",
+        "e": "Compare"
+      },
+      "answer": "d",
+      "source": "1",
+      "id": 28,
+      "question_ar": "ما أول خطوة في خوارزمية فرز الدمج؟",
+      "options_ar": {
+        "a": "مبادلة",
+        "b": "مقارنة",
+        "c": "دمج",
+        "d": "تقسيم",
+        "e": "مقارنة"
+      },
+      "topic_ar": "فرز الدمج"
+    },
+    {
+      "difficulty": "medium",
+      "case": "MergeSort_case2",
+      "topic": "Merge Sort",
+      "question": "Which algorithm is classically O(n log n) in the worst case?",
+      "options": {
+        "a": "Bubble Sort",
+        "b": "Merge Sort",
+        "c": "Linear Search",
+        "d": "Accessing the top of a stack",
+        "e": "Insertion Sort"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 29,
+      "question_ar": "أي خوارزمية تكون عادةً O(n log n) في أسوأ الحالات؟",
+      "options_ar": {
+        "a": "فرز الفقاعات",
+        "b": "فرز الدمج",
+        "c": "البحث الخطي",
+        "d": "الوصول إلى قمة المكدس",
+        "e": "الإدراج"
+      },
+      "topic_ar": "فرز الدمج"
+    },
+    {
+      "difficulty": "easy",
+      "case": "QueueConcepts_case1",
+      "topic": "Queue Concepts",
+      "question": "A Queue is a linear data structure that follows the principle of:",
+      "options": {
+        "a": "Last-In-First-Out",
+        "b": "First-In-First-Out",
+        "c": "Priority-Based-Access",
+        "d": "Last-In-Last-Out",
+        "e": "Middle-In-First-Out"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 30,
+      "question_ar": "الطابور هيكل بيانات خطي يتبع مبدأ:",
+      "options_ar": {
+        "a": "آخر داخل أول خارج (LIFO)",
+        "b": "أول داخل أول خارج (FIFO)",
+        "c": "وصول حسب الأولوية",
+        "d": "آخر داخل آخر خارج",
+        "e": "وسط داخل أول خارج"
+      },
+      "topic_ar": "مفاهيم الطابور"
+    },
+    {
+      "difficulty": "easy",
+      "case": "QueueConcepts_case2",
+      "topic": "Queue Concepts",
+      "question": "Which operation removes and returns the front element of a queue?",
+      "options": {
+        "a": "enqueue()",
+        "b": "push()",
+        "c": "dequeue()",
+        "d": "insert()",
+        "e": "delete()"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 31,
+      "question_ar": "أي عملية تزيل وتُرجع العنصر الأمامي في الطابور؟",
+      "options_ar": {
+        "a": "enqueue()",
+        "b": "push()",
+        "c": "dequeue()",
+        "d": "insert()",
+        "e": "delete()"
+      },
+      "topic_ar": "مفاهيم الطابور"
+    },
+    {
+      "difficulty": "medium",
+      "case": "QueueConcepts_case3",
+      "topic": "Queue Concepts",
+      "question": "Which two pointers are used to perform operations in an array-based queue?",
+      "options": {
+        "a": "Top and Bottom",
+        "b": "Start and End",
+        "c": "Head and Tail (Front and Rear)",
+        "d": "Left and Right",
+        "e": "Root and Leaf"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 32,
+      "question_ar": "أي مؤشرين يُستخدمان في طابور قائم على مصفوفة؟",
+      "options_ar": {
+        "a": "Top و Bottom",
+        "b": "Start و End",
+        "c": "Head و Tail (Front و Rear)",
+        "d": "Left و Right",
+        "e": "Root و Leaf"
+      },
+      "topic_ar": "مفاهيم الطابور"
+    },
+    {
+      "difficulty": "medium",
+      "case": "QueueConcepts_case4",
+      "topic": "Queue Concepts",
+      "question": "What does \"Capacity\" refer to in the context of a queue?",
+      "options": {
+        "a": "Current number of elements",
+        "b": "The size of each data element",
+        "c": "The maximum number of elements it can hold",
+        "d": "The speed of the dequeue operation",
+        "e": "The memory address of the first node"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 33,
+      "question_ar": "ماذا يعني «السعة» (Capacity) في سياق الطابور؟",
+      "options_ar": {
+        "a": "عدد العناصر الحالي",
+        "b": "حجم كل عنصر بيانات",
+        "c": "أقصى عدد عناصر يمكن تخزينه",
+        "d": "سرعة عملية dequeue",
+        "e": "عنوان ذاكرة العقدة الأولى"
+      },
+      "topic_ar": "مفاهيم الطابور"
+    },
+    {
+      "difficulty": "hard",
+      "case": "QueueConcepts_case5",
+      "topic": "Queue Concepts",
+      "question": "Which condition usually shows that a circular queue is full?",
+      "options": {
+        "a": "front == -1",
+        "b": "rear == -1",
+        "c": "(rear + 1) % capacity == front",
+        "d": "front == rear in every case",
+        "e": "rear == capacity - 1"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 34,
+      "question_ar": "أي شرط يدل عادةً على أن الطابور الدائري ممتلئ؟",
+      "options_ar": {
+        "a": "front == -1",
+        "b": "rear == -1",
+        "c": "(rear + 1) % capacity == front",
+        "d": "front == rear في كل الحالات",
+        "e": "rear == capacity - 1"
+      },
+      "topic_ar": "مفاهيم الطابور"
+    },
+    {
+      "difficulty": "easy",
+      "case": "Stack_case1",
+      "topic": "Stack",
+      "question": "The Stack data structure operates on which principle?",
+      "options": {
+        "a": "First-In-First-Out (FIFO)",
+        "b": "Last-In-First-Out (LIFO)",
+        "c": "Highest-Priority-First (HPF)",
+        "d": "Random-In-Random-Out (RIRO)",
+        "e": "Bottom-In-Top-Out (BITO)"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 35,
+      "question_ar": "يعمل هيكل المكدس وفق أي مبدأ؟",
+      "options_ar": {
+        "a": "FIFO",
+        "b": "LIFO",
+        "c": "أعلى أولوية أولًا",
+        "d": "عشوائي داخل وخارج",
+        "e": "من الأسفل للأعلى"
+      },
+      "topic_ar": "المكدس"
+    },
+    {
+      "difficulty": "medium",
+      "case": "Stack_case1",
+      "topic": "Stack",
+      "question": "Which of the following is a real-world application of a stack?",
+      "options": {
+        "a": "People waiting in a ticket line",
+        "b": "A deck of cards or a pile of plates",
+        "c": "A social network friend suggestion",
+        "d": "GPS navigation routes",
+        "e": "Printer job management"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 36,
+      "question_ar": "أيٌّ مما يلي تطبيق واقعي للمكدس؟",
+      "options_ar": {
+        "a": "طابور انتظار التذاكر",
+        "b": "مجموعة أوراق أو كومة أطباق",
+        "c": "اقتراح أصدقاء في شبكة اجتماعية",
+        "d": "مسارات GPS",
+        "e": "إدارة مهام الطابعة"
+      },
+      "topic_ar": "المكدس"
+    },
+    {
+      "difficulty": "hard",
+      "case": "Stack_case1",
+      "topic": "Stack",
+      "question": "Which computer process relies on a stack to manage function calls and return addresses?",
+      "options": {
+        "a": "Memory paging",
+        "b": "Function recursion",
+        "c": "File system indexing",
+        "d": "Hash table lookup",
+        "e": "Priority scheduling"
+      },
+      "answer": "e",
+      "source": "1",
+      "id": 37,
+      "question_ar": "أي عملية حاسوبية تعتمد على المكدس لإدارة استدعاءات الدوال وعناوين العودة؟",
+      "options_ar": {
+        "a": "تقسيم الذاكرة صفحات",
+        "b": "العودية في الدوال",
+        "c": "فهرسة نظام الملفات",
+        "d": "البحث في جدول التجزئة",
+        "e": "جدولة الأولويات"
+      },
+      "topic_ar": "المكدس"
+    },
+    {
+      "difficulty": "easy",
+      "case": "StackImpl_case1",
+      "topic": "Stack Implementation",
+      "question": "In a stack implementation, which operation adds an element to the top?",
+      "options": {
+        "a": "Pop",
+        "b": "Push",
+        "c": "IsEmpty",
+        "d": "Delete",
+        "e": "Reset"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 38,
+      "question_ar": "في تنفيذ المكدس، أي عملية تضيف عنصرًا إلى القمة؟",
+      "options_ar": {
+        "a": "Pop",
+        "b": "Push",
+        "c": "IsEmpty",
+        "d": "Delete",
+        "e": "Reset"
+      },
+      "topic_ar": "تنفيذ المكدس"
+    },
+    {
+      "difficulty": "medium",
+      "case": "StackImpl_case2",
+      "topic": "Stack Implementation",
+      "question": "When implementing a pop function in a stack, what must happen to the top pointer after retrieving the value?",
+      "options": {
+        "a": "stack.top = stack.top + 1",
+        "b": "stack.top = stack.top - 1",
+        "c": "stack.top = 0",
+        "d": "stack.top = size",
+        "e": "The pointer remains the same"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 39,
+      "question_ar": "عند تنفيذ pop في المكدس، ماذا يجب أن يحدث لمؤشر القمة بعد جلب القيمة؟",
+      "options_ar": {
+        "a": "stack.top = stack.top + 1",
+        "b": "stack.top = stack.top - 1",
+        "c": "stack.top = 0",
+        "d": "stack.top = size",
+        "e": "يبقى المؤشر كما هو"
+      },
+      "topic_ar": "تنفيذ المكدس"
+    },
+    {
+      "difficulty": "hard",
+      "case": "StackImpl_case3",
+      "topic": "Stack Implementation",
+      "question": "In a stack implementation, if stack.top ≥ stack.size - 1, what error message should be printed?",
+      "options": {
+        "a": "\"memory full\"",
+        "b": "\"stack underflow\"",
+        "c": "\"stack overflow\"",
+        "d": "\"array error\"",
+        "e": "\"index out of bounds\""
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 40,
+      "question_ar": "إذا كان stack.top ≥ stack.size - 1، ما رسالة الخطأ المطلوب طباعتها؟",
+      "options_ar": {
+        "a": "memory full",
+        "b": "stack underflow",
+        "c": "stack overflow",
+        "d": "array error",
+        "e": "index out of bounds"
+      },
+      "topic_ar": "تنفيذ المكدس"
+    },
+    {
+      "difficulty": "easy",
+      "case": "StackOps_case1",
+      "topic": "Stack Operations",
+      "question": "Which function is used to check if a stack contains no elements?",
+      "options": {
+        "a": "IsFull",
+        "b": "Peek",
+        "c": "IsEmpty",
+        "d": "Pop",
+        "e": "Reset"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 41,
+      "question_ar": "أي دالة تُستخدم للتحقق من أن المكدس فارغ؟",
+      "options_ar": {
+        "a": "IsFull",
+        "b": "Peek",
+        "c": "IsEmpty",
+        "d": "Pop",
+        "e": "Reset"
+      },
+      "topic_ar": "عمليات المكدس"
+    },
+    {
+      "difficulty": "easy",
+      "case": "StackOps_case2",
+      "topic": "Stack Operations",
+      "question": "Which operation removes the top element from a stack?",
+      "options": {
+        "a": "Push",
+        "b": "Pop",
+        "c": "Peek",
+        "d": "Insert",
+        "e": "Delete"
+      },
+      "answer": "b",
+      "source": "1",
+      "id": 42,
+      "question_ar": "أي عملية تزيل العنصر من قمة المكدس؟",
+      "options_ar": {
+        "a": "Push",
+        "b": "Pop",
+        "c": "Peek",
+        "d": "Insert",
+        "e": "Delete"
+      },
+      "topic_ar": "عمليات المكدس"
+    },
+    {
+      "difficulty": "medium",
+      "case": "StackOps_case3",
+      "topic": "Stack Operations",
+      "question": "Which operation returns the top data value without removing it from the stack?",
+      "options": {
+        "a": "Push",
+        "b": "Pop",
+        "c": "IsEmpty",
+        "d": "Peek",
+        "e": "Size"
+      },
+      "answer": "d",
+      "source": "1",
+      "id": 43,
+      "question_ar": "أي عملية تُرجع قيمة القمة دون إزالتها من المكدس؟",
+      "options_ar": {
+        "a": "Push",
+        "b": "Pop",
+        "c": "IsEmpty",
+        "d": "Peek",
+        "e": "Size"
+      },
+      "topic_ar": "عمليات المكدس"
+    },
+    {
+      "difficulty": "medium",
+      "case": "StackOps_case4",
+      "topic": "Stack Operations",
+      "question": "In stack, the IsFull operation returns true when the top pointer is equal to:",
+      "options": {
+        "a": "0",
+        "b": "-1",
+        "c": "capacity - 1",
+        "d": "capacity + 1",
+        "e": "size / 2"
+      },
+      "answer": "c",
+      "source": "1",
+      "id": 44,
+      "question_ar": "في المكدس، تعيد IsFull القيمة true عندما يكون مؤشر القمة يساوي:",
+      "options_ar": {
+        "a": "0",
+        "b": "-1",
+        "c": "capacity - 1",
+        "d": "capacity + 1",
+        "e": "size / 2"
+      },
+      "topic_ar": "عمليات المكدس"
+    },
+    {
+      "difficulty": "hard",
+      "case": "StackOps_case5",
+      "topic": "Stack Operations",
+      "question": "In stack, for the Push operation, what is the step immediately following the \"Check if full\" stage (assuming it’s not full)?",
+      "options": {
+        "a": "Add data to the current top",
+        "b": "Decrement the top pointer",
+        "c": "Exit the program",
+        "d": "Increment top to point to the next empty space",
+        "e": "Return an overflow error"
+      },
+      "answer": "d",
+      "source": "1",
+      "id": 45,
+      "question_ar": "في Push، ما الخطوة مباشرة بعد «التحقق من الامتلاء» (إذا لم يكن ممتلئًا)؟",
+      "options_ar": {
+        "a": "إضافة البيانات عند القمة الحالية",
+        "b": "إنقاص مؤشر القمة",
+        "c": "إنهاء البرنامج",
+        "d": "زيادة القمة للإشارة إلى الموضع الفارغ التالي",
+        "e": "إرجاع خطأ overflow"
+      },
+      "topic_ar": "عمليات المكدس"
+    }
+  ]
+}

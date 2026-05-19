@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0f1419" />
+    <meta
+      name="description"
+      content="DSA Final exam MCQ practice — mobile-friendly quiz"
+    />
+    <title>DSA Final MCQs</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1 id="app-title">DSA Final MCQs</h1>
+      <p id="app-title-ar" class="lang-ar" dir="rtl"></p>
+      <p id="app-subtitle">Exam practice · English &amp; العربية</p>
+    </header>
+
+    <section id="screen-home" class="screen active">
+      <div class="card">
+        <h2 id="label-language-heading">Language</h2>
+        <p id="label-language-hint" class="field-hint"></p>
+        <div class="lang-picker" role="group" aria-label="Language mode">
+          <button type="button" class="lang-chip" data-lang="both">Both</button>
+          <button type="button" class="lang-chip" data-lang="en">English</button>
+          <button type="button" class="lang-chip" data-lang="ar">العربية</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 id="label-quick-start">Quick start</h2>
+        <label class="field-label" for="filter-difficulty" id="label-difficulty">Difficulty</label>
+        <select id="filter-difficulty">
+          <option value="all">All levels</option>
+          <option value="easy">Easy only</option>
+          <option value="medium">Medium only</option>
+          <option value="hard">Hard only</option>
+        </select>
+        <button type="button" class="btn btn-primary" id="btn-quiz-all">
+          Practice all topics · تدريب على الكل
+        </button>
+        <button type="button" class="btn btn-secondary" id="btn-review-wrong" hidden>
+          Review missed questions
+        </button>
+      </div>
+
+      <div class="card">
+        <h2 id="label-by-topic">By topic</h2>
+        <ul id="topic-list" class="topic-list"></ul>
+      </div>
+
+      <p
+        id="question-count"
+        style="text-align: center; color: var(--muted); font-size: 0.85rem"
+      ></p>
+    </section>
+
+    <section id="screen-quiz" class="screen">
+      <div class="progress-bar" aria-hidden="true">
+        <span id="progress-fill" style="width: 0%"></span>
+      </div>
+      <div class="quiz-meta">
+        <span id="quiz-topic">Topic</span>
+        <div class="lang-picker lang-picker-compact" role="group" aria-label="Language mode">
+          <button type="button" class="lang-chip" data-lang="both" title="Both">EN+AR</button>
+          <button type="button" class="lang-chip" data-lang="en" title="English">EN</button>
+          <button type="button" class="lang-chip" data-lang="ar" title="Arabic">AR</button>
+        </div>
+        <span>
+          <span id="quiz-counter">1 / 10</span>
+          ·
+          <span id="quiz-difficulty" class="badge badge-easy">easy</span>
+        </span>
+      </div>
+      <div class="card">
+        <p id="question-text-en" class="question-text"></p>
+        <p id="question-text-ar" class="question-text lang-ar" dir="rtl"></p>
+        <div id="options" class="options" role="group" aria-label="Answer choices"></div>
+        <div id="feedback" class="feedback" role="status"></div>
+      </div>
+    </section>
+
+    <section id="screen-results" class="screen">
+      <div class="card">
+        <h2 id="label-results-heading">Session complete</h2>
+        <div class="stats-grid">
+          <div class="stat-box">
+            <strong id="stat-score">0%</strong>
+            <span id="label-stat-score">Score</span>
+          </div>
+          <div class="stat-box">
+            <strong id="stat-correct">0</strong>
+            <span id="label-stat-correct">Correct</span>
+          </div>
+          <div class="stat-box">
+            <strong id="stat-wrong">0</strong>
+            <span id="label-stat-wrong">Wrong</span>
+          </div>
+          <div class="stat-box">
+            <strong id="stat-total">0</strong>
+            <span id="label-stat-total">Total</span>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary" id="btn-retry">Try again</button>
+        <button type="button" class="btn btn-secondary" id="btn-home-results">Home</button>
+      </div>
+    </section>
+
+    <nav id="quiz-nav" class="bottom-nav hidden">
+      <button type="button" class="btn btn-ghost" id="btn-exit-quiz">Exit · خروج</button>
+      <button type="button" class="btn btn-primary" id="btn-next" disabled>Next · التالي</button>
+    </nav>
+
+    <script src="app.js"></script>
+  </body>
+</html>

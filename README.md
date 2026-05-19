@@ -1,5 +1,7 @@
 # DSA Final — MCQ Exam Practice
 
+**Author:** Mustafa Rabbah · [Telegram @MustafaRabbah](https://t.me/MustafaRabbah)
+
 Mobile-friendly multiple-choice quiz for your Data Structures & Algorithms final exam.  
 Choose **Both**, **English only**, or **Arabic only** on the home screen (saved in your browser). You can switch anytime during a quiz too.
 
